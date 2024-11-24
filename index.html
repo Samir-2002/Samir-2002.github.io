@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"></div>
+            <ul class="nav-links">
+
+            </ul>
+            <button id="themeToggle"><i class="fas fa-adjust"></i></button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content fade-in">
+            <h1>PORTAFOLIO - TALLER II</h1>
+            <p>Hola soy Wilson un estudiante de la carrera de ingenieria de sistemas y computacion, tengo un interes grande por la tecnologia.</p>
+            <button id="learnMoreButton" class="button-3d" data-title="Descripción" data-message="Este portafolio lo cree para registrar mis trabajos">Descripción</button>
+        </div>
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+
+    <section class="plans">
+        <h2>TRABAJOS</h2>
+        <div class="plan-cards">
+            <div class="card fade-in">
+                <i class="fas fa-star"></i>
+                <h3>Área y Perimetro de un Cuadrado Utilizando Lenguaje Java</h3>
+                <p>El área de un cuadrado se calcula elevando la longitud de su lado al cuadrado ( A = l² ).</p>
+                <a href="https://www.exemplo.com" target="_blank">
+                    <button>Descargar</button>
+                </a>
+
+            </div>
+            <div class="card fade-in">
+                <i class="fas fa-rocket"></i>
+                <h3>Calculo de la Pensión Utilizando Lenguaje Java</h3>
+                <p>La Universidad efectúa rebajas en las pensiones a partir del segundo ciclobasandose en el promedio ponderado.</p>
+                <a href="https://www.exemplo.com" target="_blank">
+                    <button>Descargar</button>
+                </a>
+            </div>
+            <div class="card fade-in">
+                <i class="fas fa-gem"></i>
+                <h3>CRUD en Java</h3>
+                <p>Para realizar el ejercicio, crearemos primero una base de datos una tabla y registros y luego el CRUD en java.</p>
+                <a href="https://www.exemplo.com" target="_blank">
+                    <button>Descargar</button>
+                </a>
+            </div>
+        </div>
+    </section>
+      
+      <hr class="divider">
+
+      <div class="features">
+        <div class="feature-card">
+          <i class="fas fa-rocket"></i>
+          <h4>Boleta de un Vendedor Utilizando Lenguaje Java</h4>
+          <p>Diseñe un algoritmo que imprima la Boleta con el sueldo basico, la comisión, el sueldo bruto, el descuento y el sueldo neto.</p>
+            <a href="https://www.exemplo.com" target="_blank">
+                <button class="button-3d" style="border-radius: 10px;">Descargar</button>
+            </a>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-shield-alt"></i>
+          <h4>Gastos de la Empresa Utilizando Lenguaje Java</h4>
+          <p>Diseñe un programa que determine cuánto gastará la Empresa en cada rubro.</p>
+            <a href="https://www.exemplo.com" target="_blank">
+                <button class="button-3d" style="border-radius: 10px;">Descargar</button>
+            </a>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-cogs"></i>
+          <h4>Importe de Compra Utilizando Lenguaje Java</h4>
+          <p>Diseñe un programa que determine el importe de la compra, el importe del primer descuento, el importe del segundo descuento, el importe del descuento total t el importe a pagar.</p>
+            <a href="https://www.exemplo.com" target="_blank">
+                <button class="button-3d" style="border-radius: 10px;">Descargar</button>
+            </a>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-users"></i>
+          <h4>Sueldo de Empleados Utilizando Lenguaje Java</h4>
+          <p>Diseñe un programa que determine el sueldo basico, el sueldo bruto, el descuento y el sueldo neto que le corresponde.</p>
+            <a href="https://www.exemplo.com" target="_blank">
+                <button class="button-3d" style="border-radius: 10px;">Descargar</button>
+            </a>
+        </div>
+        <!-- Novos quadrados -->
+        <div class="feature-card">
+          <i class="fas fa-sync-alt"></i>
+          <h4>Oferta de Venta Utilizando Lenguaje Java</h4>
+          <p>Diseñe un programa que determine el importe de la compra, el descuento, el importe a pagar y la cantidad de lapiceros de obsequio.</p>
+            <a href="https://www.exemplo.com" target="_blank">
+                <button class="button-3d" style="border-radius: 10px;">Descargar</button>
+            </a>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-headset"></i>
+          <h4>Precio de Pasajes Utilizando Lenguaje Java</h4>
+          <p>Diseñe un programa que determine el importe de la compra, el importe del descuento, el importe a pagar y la cantidad de caramelos de obsequio.</p>
+            <a href="https://www.exemplo.com" target="_blank">
+                <button class="button-3d" style="border-radius: 10px;">Descargar</button>
+            </a>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-headset"></i>
+            <h4>Login Utilizando Lenguaje Java</h4>
+            <p>Diseñe un proyecto de Login para 5 Estudiantes</p>
+            <a href="https://www.exemplo.com" target="_blank">
+                <button class="button-3d" style="border-radius: 10px;" onclick="navigateTo('login.html')">Ver Proyecto</button>
+            </a>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-headset"></i>
+            <h4>Registro de Alumnos Utilizando Lenguaje Java</h4>
+            <p>Diseñe un proyecto para el Registro de Alumnos</p>
+              <a href="https://www.exemplo.com" target="_blank">
+                  <button class="button-3d" style="border-radius: 10px;" onclick="navigateTo('Registro.html')">Ver Proyecto</button>
+              </a>
+          </div>
+        </div>
+
+    <footer>
+        <p>© 2024 Wilson Developer. Contenido original.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
